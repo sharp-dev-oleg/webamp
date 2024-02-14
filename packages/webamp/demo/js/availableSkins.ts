@@ -1,17 +1,17 @@
 // @ts-ignore
-import osx from "url:../skins/MacOSXAqua1-5.wsz";
+import osx from "../skins/MacOSXAqua1-5.wsz?url";
 // @ts-ignore
-import topaz from "url:../skins/TopazAmp1-2.wsz";
+import topaz from "../skins/TopazAmp1-2.wsz?url";
 // @ts-ignore
-import visor from "url:../skins/Vizor1-01.wsz";
+import visor from "../skins/Vizor1-01.wsz?url";
 // @ts-ignore
-import xmms from "url:../skins/XMMS-Turquoise.wsz";
+import xmms from "../skins/XMMS-Turquoise.wsz?url";
 // @ts-ignore
-import zaxon from "url:../skins/ZaxonRemake1-0.wsz";
+import zaxon from "../skins/ZaxonRemake1-0.wsz?url";
 // @ts-ignore
-import green from "url:../skins/Green-Dimension-V2.wsz";
+import green from "../skins/Green-Dimension-V2.wsz?url";
 // @ts-ignore
-import internetArchive from "url:../skins/Internet-Archive.wsz";
+import internetArchive from "../skins/Internet-Archive.wsz?url";
 
 export default [
   { url: green, name: "Green Dimension V2" },

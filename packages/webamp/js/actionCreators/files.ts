@@ -96,7 +96,7 @@ export function setSkinFromBlob(blob: Blob | Promise<Blob>): Thunk {
     dispatch({ type: LOADING });
     let JSZip;
     try {
-      JSZip = await requireJSZip();
+      JSZip = (await requireJSZip()).default;
     } catch (e) {
       console.error(e);
       dispatch({ type: LOADED });

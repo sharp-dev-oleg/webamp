@@ -56,6 +56,7 @@
     "build-skin": "rm assets/skins/base-2.91.wsz && cd assets/skins/base-2.91 && zip -x .* -x 'Skining Updates.txt' -r ../base-2.91.wsz .",
     "compile-skin": "node scripts/compileSkin.js > css/base-skin.css",
     "skin-info": "unzip -vl assets/skins/base-2.91.wsz",
+    "vite": "vite",
     "build-presets": "node scripts/parsePresetFiles.js > presets/builtin.json"
   },
   "repository": {
@@ -90,6 +91,7 @@
     "@types/webaudioapi": "^0.0.27",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "canvas-mock": "0.0.0",
     "data-uri-to-buffer": "^2.0.0",
     "glob": "^7.1.4",
@@ -105,7 +107,8 @@
     "react-test-renderer": "^17.0.1",
     "style-loader": "^0.23.1",
     "typescript": "^3.7.2",
-    "url-loader": "^1.1.2"
+    "url-loader": "^1.1.2",
+    "vite": "^5.1.1"
   },
   "jest": {
     "globalSetup": "jest-environment-puppeteer/setup",

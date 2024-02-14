@@ -4,8 +4,9 @@
 // away once we've figured out how to expose all the things that the demo site
 // needs, or reduce the things that the demo site needs access to.
 
-export { default as WebampLazy, PrivateOptions } from "../../js/webampLazy";
-export {
+export { default as WebampLazy } from "../../js/webampLazy";
+export type { PrivateOptions } from "../../js/webampLazy";
+export type {
   WindowLayout,
   Options,
   ButterchurnOptions,
