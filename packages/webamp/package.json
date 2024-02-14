@@ -56,7 +56,8 @@
     "build-skin": "rm assets/skins/base-2.91.wsz && cd assets/skins/base-2.91 && zip -x .* -x 'Skining Updates.txt' -r ../base-2.91.wsz .",
     "compile-skin": "node scripts/compileSkin.js > css/base-skin.css",
     "skin-info": "unzip -vl assets/skins/base-2.91.wsz",
-    "build-presets": "node scripts/parsePresetFiles.js > presets/builtin.json"
+    "build-presets": "node scripts/parsePresetFiles.js > presets/builtin.json",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -138,6 +139,9 @@
     "redux-thunk": "^2.4.0",
     "reselect": "^3.0.1",
     "tinyqueue": "^1.2.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
     "winamp-eqf": "^1.0.0"
   }
 }
